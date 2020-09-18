@@ -1,0 +1,8 @@
+README.md
+setup.py
+book2/__init__.py
+book2.egg-info/PKG-INFO
+book2.egg-info/SOURCES.txt
+book2.egg-info/dependency_links.txt
+book2.egg-info/requires.txt
+book2.egg-info/top_level.txt

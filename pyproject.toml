@@ -5,11 +5,12 @@ description = ""
 authors = ["Richard Whitehead <damian253@me.com>"]
 
 [tool.poetry.dependencies]
-python = "^3.8"
+python = "~3.8"
 django = "^3.1.1"
 dockerfile = "^3.1.0"
 djangorestframework = "^3.11.1"
 psycopg2-binary = "^2.8.6"
+djangorestframework_simplejwt = "^4.4.0"
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
