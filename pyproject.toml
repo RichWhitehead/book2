@@ -1,19 +1,21 @@
 [tool.poetry]
-name = "book2"
+name = "drf-auth"
 version = "0.1.0"
 description = ""
 authors = ["Richard Whitehead <damian253@me.com>"]
 
 [tool.poetry.dependencies]
 python = "~3.8"
-django = "^3.1.1"
-dockerfile = "^3.1.0"
 djangorestframework = "^3.11.1"
-psycopg2-binary = "^2.8.6"
 djangorestframework_simplejwt = "^4.4.0"
+django = "^3.1.1"
+environ = "^1.0"
+django-environ = "^0.4.5"
+django-cors-headers = "^3.5.0"
+whitenoise = "^5.2.0"
+psycopg2-binary = "^2.8.6"
 
 [tool.poetry.dev-dependencies]
-pytest = "^5.2"
 
 [build-system]
 requires = ["poetry>=0.12"]
